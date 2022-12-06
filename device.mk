@@ -437,6 +437,7 @@ PRODUCT_COPY_FILES += \
 
 # device/qcom/common modules
 TARGET_COMMON_QTI_COMPONENTS := \
+    av \
     gps \
     usb \
     vibrator
