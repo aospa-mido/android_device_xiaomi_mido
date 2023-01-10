@@ -221,9 +221,7 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-    libcurl \
-    libavservices_minijail \
-    libavservices_minijail.vendor
+    libcurl
 
 # Healthd
 PRODUCT_PACKAGES += \
@@ -322,7 +320,6 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-qti \
     android.hardware.power.stats@1.0-service.mock \
     vendor.qti.hardware.perf@2.0 \
     vendor.qti.hardware.perf@2.0.vendor \
@@ -439,6 +436,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     av \
     bt \
     gps \
+    perf \
     telephony \
     usb \
     vibrator
